@@ -8,18 +8,18 @@
     document.body.insertBefore(particlesDiv, document.body.firstChild);
     var selectedTheme = localStorage.getItem("selectedOption");
 
-if (selectedTheme === "starry") {
+if (selectedTheme === "fal") {
       particlesJS("particles-js", {
         particles: {
           number: {
-            value: 160,
+            value: 183,
             density: {
               enable: true,
               value_area: 800,
             },
           },
           color: {
-            value: "#ffffff",
+            value: "#ef00ff",
           },
           shape: {
             type: "circle",
@@ -119,7 +119,7 @@ if (selectedTheme === "starry") {
         },
         retina_detect: true,
       });
-    } else if (selectedTheme === "magma") {
+    } else if (selectedTheme === "solo") {
       particlesJS("particles-js", {
         particles: {
           number: {
@@ -130,7 +130,7 @@ if (selectedTheme === "starry") {
             },
           },
           color: {
-            value: "#1b1e34",
+            value: "#ffffff",
           },
           shape: {
             type: "polygon",
@@ -177,7 +177,7 @@ if (selectedTheme === "starry") {
           move: {
             enable: true,
             speed: 5,
-            direction: "none",
+            direction: "bottom",
             random: false,
             straight: false,
             out_mode: "out",
